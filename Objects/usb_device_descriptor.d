@@ -1,33 +1,30 @@
-./objects/usb_device_descriptor.o: \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_descriptor.c \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_config.h \
-  ..\..\Libraries\nxp_libraries\middleware\usb\include\usb.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h \
-  ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction.h \
-  ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction_config.h \
-  ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction_bm.h \
-  ..\..\Libraries\nxp_libraries\middleware\usb\include\usb_misc.h \
-  ..\..\Libraries\nxp_libraries\middleware\usb\include\usb_spec.h \
-  ..\..\Libraries\nxp_libraries\middleware\usb\device\usb_device.h \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_class.h \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_cdc_acm.h \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_descriptor.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_descriptor.c
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_config.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\middleware\usb\include\usb.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usb_device_descriptor.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction_config.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\osa\fsl_os_abstraction_bm.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\middleware\usb\include\usb_misc.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\middleware\usb\include\usb_spec.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\middleware\usb\device\usb_device.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_class.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_cdc_acm.h
+.\objects\usb_device_descriptor.o: ..\..\Libraries\nxp_libraries\components\serial_manager\usb_cdc_adapter\usb_device_descriptor.h

@@ -137,7 +137,7 @@
 ".\objects\fsl_flexspi_nor_boot.o"
 ".\objects\control.o"
 ".\objects\showinformation.o"
---library_type=microlib --diag_suppress 6314,6329 --strict --scatter ".\scf\MIMXRT1064xxxxx_flexspi_nor.scf"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--diag_suppress 6314,6329 --strict --scatter ".\scf\MIMXRT1064xxxxx_flexspi_nor_v5.scf"
+--remove --keep=*(.boot_hdr.ivt) --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\RT106X.map" -o .\Objects\RT106X.axf

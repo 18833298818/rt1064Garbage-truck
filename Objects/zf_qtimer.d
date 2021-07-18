@@ -1,26 +1,23 @@
-./objects/zf_qtimer.o: ..\..\Libraries\seekfree_libraries\zf_qtimer.c \
-  ..\..\Libraries\seekfree_libraries\zf_iomuxc.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h \
-  ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h \
-  ..\..\Libraries\seekfree_libraries\common\common.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
-  ..\..\Libraries\seekfree_libraries\zf_qtimer.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_qtmr.h
+.\objects\zf_qtimer.o: ..\..\Libraries\seekfree_libraries\zf_qtimer.c
+.\objects\zf_qtimer.o: ..\..\Libraries\seekfree_libraries\zf_iomuxc.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h
+.\objects\zf_qtimer.o: ..\..\Libraries\seekfree_libraries\common\common.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\zf_qtimer.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\zf_qtimer.o: ..\..\Libraries\seekfree_libraries\zf_qtimer.h
+.\objects\zf_qtimer.o: ..\..\Libraries\nxp_libraries\drives\fsl_qtmr.h

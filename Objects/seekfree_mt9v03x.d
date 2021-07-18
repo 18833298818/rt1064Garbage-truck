@@ -1,40 +1,35 @@
-./objects/seekfree_mt9v03x.o: \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.c \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h \
-  ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_gpio.h \
-  ..\..\Libraries\seekfree_libraries\zf_systick.h \
-  ..\..\Libraries\seekfree_libraries\common\common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h \
-  ..\..\Libraries\seekfree_libraries\zf_pit.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_pit.h \
-  ..\..\Libraries\seekfree_libraries\zf_camera.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_flexio.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_dmamux.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_edma.h \
-  ..\..\Libraries\seekfree_libraries\zf_gpio.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\seekfree_libraries\zf_iomuxc.h \
-  ..\..\Libraries\seekfree_libraries\zf_iomuxc.h \
-  ..\..\Libraries\seekfree_libraries\zf_usb_cdc.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h \
-  ..\..\Libraries\seekfree_libraries\zf_uart.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.c
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_gpio.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_systick.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\common\common.h
+.\objects\seekfree_mt9v03x.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_pit.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_pit.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_camera.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_flexio.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_dmamux.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_edma.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_gpio.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_iomuxc.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_usb_cdc.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\seekfree_libraries\zf_uart.h
+.\objects\seekfree_mt9v03x.o: ..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h

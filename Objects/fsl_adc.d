@@ -1,20 +1,19 @@
-./objects/fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_adc.c \
-  ..\..\Libraries\nxp_libraries\drives\fsl_adc.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h \
-  ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_adc.c
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_adc.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\fsl_adc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\fsl_adc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\fsl_adc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\fsl_adc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\fsl_adc.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\fsl_adc.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h

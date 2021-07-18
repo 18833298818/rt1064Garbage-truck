@@ -1,102 +1,96 @@
-./objects/control.o: ..\CODE\control.c \
-  ..\..\Libraries\seekfree_libraries\headfile.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
-  ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armclang.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h \
-  ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_common.h \
-  ..\..\Libraries\nxp_libraries\utilities\debug_console\fsl_debug_console.h \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\serial_manager.h \
-  ..\..\Libraries\nxp_libraries\components\serial_manager\serial_port_uart.h \
-  ..\..\Libraries\nxp_libraries\components\uart\uart.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_iomuxc.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_pit.h \
-  ..\..\Libraries\seekfree_libraries\board\board.h \
-  ..\USER\inc\RT106X_config.h \
-  ..\..\Libraries\seekfree_libraries\board\clock_config.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_gpio.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_clock.h \
-  ..\..\Libraries\seekfree_libraries\board\pin_mux.h \
-  ..\..\Libraries\seekfree_libraries\board\clock_config.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_cache.h \
-  ..\..\Libraries\seekfree_libraries\common\common.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
-  ..\..\Libraries\seekfree_libraries\zf_vector.h \
-  ..\..\Libraries\nxp_libraries\middleware\fatfs\source\ff.h \
-  ..\..\Libraries\nxp_libraries\middleware\fatfs\source\ffconf.h \
-  ..\..\Libraries\nxp_libraries\middleware\fatfs\source\diskio.h \
-  ..\..\Libraries\nxp_libraries\middleware\fatfs\source\fsl_sd_disk\fsl_sd_disk.h \
-  ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sd.h \
-  ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_common.h \
-  ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_host.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_usdhc.h \
-  ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_spec.h \
-  ..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h \
-  ..\..\Libraries\seekfree_libraries\common\common.h \
-  ..\..\Libraries\seekfree_libraries\zf_gpio.h \
-  ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h \
-  ..\..\Libraries\seekfree_libraries\zf_iomuxc.h \
-  ..\..\Libraries\seekfree_libraries\zf_pit.h \
-  ..\..\Libraries\seekfree_libraries\zf_pwm.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_pwm.h \
-  ..\..\Libraries\seekfree_libraries\zf_uart.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h \
-  ..\..\Libraries\seekfree_libraries\zf_spi.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h \
-  ..\..\Libraries\seekfree_libraries\zf_systick.h \
-  ..\..\Libraries\seekfree_libraries\zf_qtimer.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_qtmr.h \
-  ..\..\Libraries\seekfree_libraries\zf_adc.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_adc.h \
-  ..\..\Libraries\seekfree_libraries\zf_iic.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_lpi2c.h \
-  E:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  ..\..\Libraries\seekfree_libraries\zf_flash.h \
-  ..\..\Libraries\seekfree_libraries\zf_camera.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_flexio.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_dmamux.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_edma.h \
-  ..\..\Libraries\seekfree_libraries\zf_csi.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_csi.h \
-  ..\..\Libraries\seekfree_libraries\zf_rom_api.h \
-  ..\..\Libraries\nxp_libraries\xip\EVKMIMXRT1064_FLEXSPI_NOR_CONFIG.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_rtwdog.h \
-  ..\..\Libraries\nxp_libraries\drives\fsl_wdog.h \
-  ..\..\Libraries\seekfree_libraries\zf_usb_cdc.h \
-  ..\..\Libraries\seekfree_libraries\zf_sdcard.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MPU6050.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_NRF24L01.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MMA8451.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_L3G4200D.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_ICM20602.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h \
-  ..\..\Libraries\seekfree_libraries\zf_uart.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_WIRELESS.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X_CSI.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h \
-  ..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h \
-  ..\CODE\control.h ..\CODE\showinformation.h
+.\objects\control.o: ..\CODE\control.c
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\headfile.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\deceive\fsl_device_registers.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\core_cm7.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_version.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_compiler.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\cmsis_armcc.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\CMSIS\Include\mpu_armv7.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\deceive\system_MIMXRT1064.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\deceive\MIMXRT1064_features.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_clock.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_common.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\utilities\debug_console\fsl_debug_console.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\components\serial_manager\serial_manager.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\components\serial_manager\serial_port_uart.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\components\uart\uart.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_iomuxc.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_pit.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\board\board.h
+.\objects\control.o: ..\USER\inc\RT106X_config.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\board\clock_config.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_gpio.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\board\pin_mux.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_cache.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\common\common.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_vector.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\fatfs\source\ff.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\fatfs\source\ffconf.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\fatfs\source\diskio.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\fatfs\source\fsl_sd_disk\fsl_sd_disk.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sd.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_common.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_host.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_usdhc.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\middleware\sdmmc\inc\fsl_sdmmc_spec.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\common\SEEKFREE_PRINTF.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_gpio.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_iomuxc.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_pit.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_pwm.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_pwm.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_uart.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_lpuart.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_spi.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_lpspi.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_systick.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_qtimer.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_qtmr.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_adc.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_adc.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_iic.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_lpi2c.h
+.\objects\control.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_flash.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_camera.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_flexio.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_dmamux.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_edma.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_csi.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_csi.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_rom_api.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\xip\EVKMIMXRT1064_FLEXSPI_NOR_CONFIG.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_rtwdog.h
+.\objects\control.o: ..\..\Libraries\nxp_libraries\drives\fsl_wdog.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_usb_cdc.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\zf_sdcard.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_FONT.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_18TFT.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS114_SPI.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_IPS200_PARALLEL8.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_IIC.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_VIRSCO.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_FUN.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MPU6050.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_OLED.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_NRF24L01.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MMA8451.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_L3G4200D.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_ICM20602.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_WIRELESS.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_MT9V03X_CSI.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_W25QXXJV.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660_CSI.h
+.\objects\control.o: ..\..\Libraries\seekfree_peripheral\SEEKFREE_SCC8660.h
+.\objects\control.o: ..\CODE\control.h
+.\objects\control.o: ..\..\Libraries\seekfree_libraries\headfile.h
+.\objects\control.o: ..\CODE\showinformation.h
